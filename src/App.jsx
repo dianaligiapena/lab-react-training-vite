@@ -4,14 +4,25 @@ import CreditCard from './components/CreditCard'
 import Greetings from './components/Greetings'
 import IdCard from './components/IdCard'
 import Random from './components/Random'
+import Rating from './components/Rating'
 
 function App() {
 
   return (
     <div className="App">
 
-<h1>Iteration 5 - Credit card</h1>
+<h1>Iteration 6 - Ratings</h1>
 <div className='iteration'>
+<Rating>0</Rating>
+<Rating>1.49</Rating>
+<Rating>1.5</Rating>
+<Rating>3</Rating>
+<Rating>4</Rating>
+<Rating>5</Rating>
+</div>
+
+<h1>Iteration 5 - Credit card</h1>
+<div >
 <CreditCard
   type="Visa"
   number="0123456789018845"
@@ -23,7 +34,6 @@ function App() {
   color="white"
 />
 </div>
-
 
 <h1>Iteration 4 - Box Color</h1>
 <div className='iteration'>
