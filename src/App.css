@@ -40,5 +40,12 @@ body {
   text-align: left;
 }
 
+.driver {
+  display: flex;
+}
+.driver img {
+  width: 50px;
+  height: 50px;
+}
 
 
