@@ -11,3 +11,34 @@ body {
   background-color: rgb(7, 103, 7);
 }
 
+.iteration {
+  display: flex;
+  border: 5px solid #933318;
+}
+.iteration div {
+  border: 5px solid #933318;
+}
+.iteration h4 {
+  border: 5px solid #933318;
+}
+.iteration p {
+  border: 5px solid #933318;
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.cardHeader img {
+  width: 50px;
+}
+.cardNumber {
+  font-size: 30px;
+}
+.cardFooter {
+  text-align: left;
+}
+
+
+

@@ -8,7 +8,6 @@ function IdCard({
     birth,
     picture,
 }) {
-
     
     const birthday = new Intl.DateTimeFormat('en', { dateStyle: 'long', timeStyle: 'short'} )
         .format(birth)
